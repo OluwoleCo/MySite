@@ -32,7 +32,8 @@ const Index = ({data}) => {
           />
           <P>
             <br />
-            Hi! My name is Oluwole Oyekanmi, a data scientist living in Lagos. I am currently curious about how data and finance intersects with the the investing and 
+            Hi! My name is Oluwole Oyekanmi, a data scientist living in Lagos. I am currently 
+            curious about how data and data science tools intersects with investing and 
           financial services
           </P>
           <P>
