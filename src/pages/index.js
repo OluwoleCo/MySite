@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import {Text, P} from 'components/typography';
 import Section, {SectionTitle} from 'components/section';
 
-import coverPhoto from './index-cover.png';
+import coverPhoto from './index-cover.jpg';
 
 const PostDate = styled(Text)`
   font-size: 0.8em;
@@ -28,7 +28,7 @@ const Index = ({data}) => {
           <img
             src={coverPhoto}
             style={{width: '100%', marginBottom: 16}}
-            alt="San Franciso Bay"
+            alt="IT ME!"
           />
           <P>
             <br />
@@ -37,13 +37,16 @@ const Index = ({data}) => {
           financial services
           </P>
           <P>
-            I am curently working at {' '}
+            I am currently working at {' '}
             <a href="https://quantextive.com">
               Quantextive 
             </a>{' '}
-            a financial data analytics company. I spend
-            a lot of my time producing research reports on industries, creating new and
-            exciting data visualisations and serving as an analytical & financial expert.
+            a financial data analytics company, where I head up the operations team.
+            </P>
+            <P>
+            Out of work, I spend
+             time creating research reports on industries, birthing new and
+            exciting data visualisations and serving as an analytical & financial opinionist.
           </P>
         </Section>
         <Section>

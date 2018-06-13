@@ -77,7 +77,7 @@ export default ({data}) => {
         <SectionTitle>Projects</SectionTitle>
         <Text>
           <a href="https://github.com/OluwoleCo/NigerianArtistYoutubeData">
-            Who won 2017? - Analysis of Nigerian artist's performance in 2017 using data from YouTube
+            Nigerian music industry - Who won 2017? (A data driven approach)
           </a>
         </Text>
         <Text>
