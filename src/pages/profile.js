@@ -17,7 +17,7 @@ export default ({data}) => {
       <Section>
         <P>
           I’m Wole, a data scientist and financial analyst. Previously, I co-founded JoppaLogic a 
-          logisics startup
+          logistics startup
           backed by MEST and worked as a Product manager and Financial Analyst at {' '} 
           <a
             href="https://riby.me"

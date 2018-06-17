@@ -42,7 +42,7 @@ From a similar data set I was able to see the countries with the leading prison 
 
 ---
 
-## Nigerian universities admit just a fraction of applicants yearly
+## Out of every 20 student that applies to a Nigerian university, 1 is admitted
 
 I intend to build further on this story and would like to know if the problem is
 
