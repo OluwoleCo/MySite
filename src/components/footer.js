@@ -48,7 +48,7 @@ const Footer = () => (
        Medium
       </a>
     </span>{'   '}
-    <small
+    {/* <small
       style={{ marginLeft: 250 }}
     >
       <p>Built using theme by 
@@ -58,7 +58,7 @@ const Footer = () => (
           Alex Pate
         </a>
         </p>
-    </small>
+    </small> */}
   </StyledFooter>
 );
 

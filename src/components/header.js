@@ -62,7 +62,7 @@ export default () => (
         </li> */}
         <li>
           <Text fontSize={[1, 2]} style={{lineHeight: '1em'}}>
-            <Link to="/profile/">About</Link>
+            <Link to="/profile/">Profile</Link>
           </Text>
         </li>
         <li>
@@ -72,7 +72,7 @@ export default () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              Twitter
+              Contact Me
             </a>
           </Text>
         </li>

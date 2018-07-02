@@ -54,7 +54,7 @@ export default ({data}) => {
           </a>, a financial data analytics startup.
         </P>
       </Section>
-      <Section>
+      {/* <Section>
         <SectionTitle>Experience</SectionTitle>
         <P>
           I currently work with data at {' '}
@@ -71,7 +71,7 @@ export default ({data}) => {
           I started my career as a financial analyst, crunching numbers and exploring data.
 
         </P>
-      </Section>
+      </Section> */}
 
       <Section>
         <SectionTitle>Projects</SectionTitle>

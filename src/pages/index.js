@@ -32,21 +32,26 @@ const Index = ({data}) => {
           />
           <P>
             <br />
-            Hi! My name is Oluwole Oyekanmi, a data scientist living in Lagos. I am currently 
-            curious about how data and data science tools intersects with investing and 
-          financial services
+            Hi! My name is Oluwole Oyekanmi, a data scientist living in Lagos. I am studying 
+            the way data and data science tools intersects with investing and 
+          financial services, and how they impact society.
           </P>
           <P>
-            I am currently working at {' '}
+            COO at {' '}
             <a href="https://quantextive.com">
               Quantextive 
             </a>{' '}
-            a financial data analytics company, where I head up the operations team.
+            a Nigerian firm that gathers, curates and analyzes financial insights and data.
             </P>
             <P>
-            Out of work, I spend
-             time creating research reports on industries, birthing new and
-            exciting data visualisations and serving as an analytical & financial opinionist.
+            I spend the bulk of my out-of-work time researching and writing overviews on industries, and birthing new and exciting data visualisations.
+            I'm an eternal analytical & financial opinionist.
+          </P>
+          <P>
+            Sign up for my weekly newsletter, {' '}
+            <a href="https://recursivealpha.substack.com">
+              Recursivealpha
+            </a>, and get my opinions on all things #fintech and #data.
           </P>
         </Section>
         <Section>
