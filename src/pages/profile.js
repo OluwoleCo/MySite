@@ -16,6 +16,37 @@ export default ({data}) => {
       <PageHeader title="Profile" />
       <Section>
         <P>
+          Oluwole (Wole) Oyekanmi, a data scientist, is Chief Operating Officer at 
+          <a
+            href="https://quantextive.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Quantextive
+          </a>, 
+          a  
+          Lagos-based firm that gathers, curates and analyzes financial insights across various sectors. 
+          He is also Founder and Editor of 
+          <a href="http://recursivealpha.substack.com">
+            Recursive-Alpha
+          </a>
+          , a weekly publication  leverages his finance 
+          experience and technology expertise to deliver a layman’s overview of the latest news in technology 
+          and startup investing to readers across Africa.
+        </P>
+        
+        <P>
+
+          Oluwole’s adoption of innovative solutions that foster sustainable growth, has lead him to many different 
+          roles in early stage startups including user experience at Amplify and product manager with Riby Finance.
+          A former Financial Analyst at Brickstone Partners, where worked with clients from both the public and private sectors, 
+          Wole was an Entrepreneur-in-Training at Meltwater Entrepreneurial School of Technology, an accelerator program for tech 
+          entrepreneurs, and holds a BSc in Business Administration from the University of Lagos.
+        </P>
+
+
+
+
           I’m Wole, a data scientist and financial analyst. Previously, I co-founded JoppaLogic a 
           logistics startup
           backed by MEST and worked as a Product manager and Financial Analyst at {' '} 
