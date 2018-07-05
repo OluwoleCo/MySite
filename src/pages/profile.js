@@ -7,108 +7,32 @@ import Section, {SectionTitle} from 'components/section';
 
 export default ({data}) => {
   const meta = data.site.siteMetadata;
-  return (
-    <main>
+  return <main>
       <Helmet title={`Profile - ${meta.defaultTitle}`}>
         <meta name="twitter:title" content={`Profile - ${meta.defaultTitle}`} />
         <meta name="twitter:description" content={meta.defaultDescription} />
       </Helmet>
       <PageHeader title="Profile" />
+
       <Section>
         <P>
-          Oluwole (Wole) Oyekanmi, a data scientist, is Chief Operating Officer at 
-          <a
-            href="https://quantextive.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          Oluwole (Wole) Oyekanmi, a data scientist, is Chief Operating Officer at <a href="https://quantextive.com" target="_blank" rel="noopener noreferrer">
             Quantextive
-          </a>, 
-          a  
-          Lagos-based firm that gathers, curates and analyzes financial insights across various sectors. 
-          He is also Founder and Editor of 
-          <a href="http://recursivealpha.substack.com">
-            Recursive-Alpha
-          </a>
-          , a weekly publication  leverages his finance 
-          experience and technology expertise to deliver a layman’s overview of the latest news in technology 
-          and startup investing to readers across Africa.
-        </P>
-        
-        <P>
-
-          Oluwole’s adoption of innovative solutions that foster sustainable growth, has lead him to many different 
-          roles in early stage startups including user experience at Amplify and product manager with Riby Finance.
-          A former Financial Analyst at Brickstone Partners, where worked with clients from both the public and private sectors, 
-          Wole was an Entrepreneur-in-Training at Meltwater Entrepreneurial School of Technology, an accelerator program for tech 
-          entrepreneurs, and holds a BSc in Business Administration from the University of Lagos.
-        </P>
-
-
-
-
-          I’m Wole, a data scientist and financial analyst. Previously, I co-founded JoppaLogic a 
-          logistics startup
-          backed by MEST and worked as a Product manager and Financial Analyst at {' '} 
-          <a
-            href="https://riby.me"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            RibyFinance
-          </a>,{' '} 
-           <a
-            href="https://brickstone.africa"
-            target="_blank"
-            rel="noopener noreferrer">
-              Brickstone 
-            </a>,{' '} 
-            
-            <a
-            href="https://amplifypay.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-              Amplify.
-            </a>
-          
-        </P>
-        <P>
-          I am currently curious about how data and finance intersects with the the investing and 
-          financial services. I work a {' '}
-          <a
-            href="https://quantextive.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Quantextive
-          </a>, a financial data analytics startup.
+          </a>, a Lagos-based firm that marries the application of machine 
+          learning with domain expertise and enables users to understand and 
+          make decisions for African markets. He is also Founder and Editor of
+          <a href="http://recursivealpha.substack.com"> Recursive-Alpha</a>
+          , a weekly publication leverages his finance experience and technology expertise to deliver 
+          a layman’s overview of the latest news in technology and startup investing to readers across Africa.
         </P>
       </Section>
-      {/* <Section>
-        <SectionTitle>Experience</SectionTitle>
-        <P>
-          I currently work with data at {' '}
-          <a
-            href="https://quantextive.com"
-          >
-          Quantextive
-          </a>
-        </P>
-        <P>
-          I had a short stint as a product manager at RibyFinance leading the product team.
-        </P>
-        <P>
-          I started my career as a financial analyst, crunching numbers and exploring data.
-
-        </P>
-      </Section> */}
-
+      
       <Section>
         <SectionTitle>Projects</SectionTitle>
         <Text>
           <a href="https://github.com/OluwoleCo/NigerianArtistYoutubeData">
-            Nigerian music industry - Who won 2017? (A data driven approach)
+            Nigerian music industry - Who won 2017? (A data driven approach to
+            identify artist with the most listens for the year)
           </a>
         </Text>
         <Text>
@@ -117,18 +41,13 @@ export default ({data}) => {
           </a>
         </Text>
         <Text>
-          <a href="http://recursivealpha.substack.com">
-            Recursive-Alpha Newsletter - A newsletter about technology
-          </a>
-        </Text>
-        <Text>
           <a href="https://medium.com/@OluwoleCo/how-we-bootstrapped-a-data-science-meetup-27ac56ca4c5e">
-            DataSci Lagos - Created a data science meetup
+            DataSci Lagos - The first MeetUp focused on open data science in
+            Lagos
           </a>
         </Text>
       </Section>
-    </main>
-  );
+    </main>;
 };
 
 export const pageQuery = graphql`
