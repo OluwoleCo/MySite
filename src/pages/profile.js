@@ -16,7 +16,10 @@ export default ({data}) => {
 
       <Section>
         <P>
-          Oluwole (Wole) Oyekanmi, a data scientist, is Chief Operating Officer at <a href="https://quantextive.com" target="_blank" rel="noopener noreferrer">
+          Oluwole (Wole) Oyekanmi, a data scientist, is Chief Operating Officer at 
+          <a href="https://quantextive.com" 
+             target="_blank" 
+             rel="noopener noreferrer">
             Quantextive
           </a>, a Lagos-based firm that marries the application of machine 
           learning with domain expertise and enables users to understand and 
@@ -26,7 +29,7 @@ export default ({data}) => {
           a layman’s overview of the latest news in technology and startup investing to readers across Africa.
         </P>
       </Section>
-      
+
       <Section>
         <SectionTitle>Projects</SectionTitle>
         <Text>

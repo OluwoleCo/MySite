@@ -1,8 +1,8 @@
 {
-  "name": "alexpate.uk",
+  "name": "oluwole.co",
   "description": "Source files for my personal site",
   "version": "2.0.0",
-  "author": "Alex Pate",
+  "author": "Oluwole Oyekanmi",
   "dependencies": {
     "gatsby": "~1.9.45",
     "gatsby-link": "~1.6.17",
@@ -40,12 +40,14 @@
     "prettier": "^1.7.4"
   },
   "keywords": [
-    "Alex Pate",
+    "Oluwole Oyekanmi",
     "gatsby",
     "personal",
     "portfolio",
     "blog",
-    "static"
+    "data science",
+    "machine learning",
+    "deep learning"
   ],
   "license": "MIT",
   "main": "n/a",
