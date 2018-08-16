@@ -12,6 +12,7 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-next',
     'gatsby-plugin-catch-links',
+    'gatsby-plugin-mdx',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -19,6 +20,7 @@ module.exports = {
         name: 'pages',
       },
     },
+    // 'gatsby-transformer-mdx',
     {
       resolve: 'gatsby-transformer-remark',
       options: {

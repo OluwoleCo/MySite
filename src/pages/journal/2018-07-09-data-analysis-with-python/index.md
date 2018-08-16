@@ -2,6 +2,8 @@
 title:  "Data Analysis with Python"
 ---
 
+
+
 ![data science](./data-science.jpg)
 
 It is easy to get carried away with the big names of data analysis and forecasting such as machine learning, deep learning and forget about the most basic tools that make the above happen, good old python, python packages and Jupyter notebook. Throw SQL in the mix and more often than not, these are the tools you would need for the bulk of work you'll be doing in data science. That is why we're going to be talking about python for data science.
