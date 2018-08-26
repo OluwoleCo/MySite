@@ -2,9 +2,9 @@ module.exports = {
   pathPrefix: `/`,
   siteMetadata: {
     author: 'Oluwole Oyekanmi',
-    title: `Oluwole Oyekanmi - Data Scientist`,
+    title: `Oluwole Oyekanmi - A Data Science blog by Oluwole Oyekanmi`,
     siteUrl: 'http://oluwole.co',
-    defaultTitle: 'Oluwole Oyekanmi - Data Scientist',
+    defaultTitle: 'Oluwole Oyekanmi - A Data Science blog by Oluwole Oyekanmi',
     defaultDescription:
       'Oluwole Oyekanmi is a Data Scientist working at the intersection of finance and data',
   },

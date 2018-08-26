@@ -1,5 +1,5 @@
 ---
-title:  "Minors and Mass incarceration in Nigerian Prisons and other stories"
+title:  "Minors and Mass incarceration in Nigerian Prisons and other stories (Exploring the data)"
 ---
 
 I stumbled on [this petition](https://www.change.org/p/the-federal-government-of-nigeria-get-minors-out-of-nigerian-prisons) about the inhumane treatment of minors in Nigerian prisons.

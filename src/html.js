@@ -24,7 +24,7 @@ export default function HTML(props) {
         <meta name="theme-color" content="#00f" />
         <meta name="author" content="Oluwole Oyekanmi" />
 
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@OluwoleCo" />
         <meta name="twitter:creator" content="@OluwoleCo" />
         <meta

@@ -28,6 +28,7 @@ export default function Template({data}) {
           title={post.frontmatter.title}
           subTitle={`By ${meta.author} on ${post.fields.date}`}
         />
+        
         {/* {isOldPost ? (
           <Alert type="warning">
             This post is over a year old. Some of the content may be out of

@@ -8,15 +8,36 @@ import Section, {SectionTitle} from 'components/section';
 export default ({data}) => {
   const meta = data.site.siteMetadata;
   return <main>
-      <Helmet title={`Profile - ${meta.defaultTitle}`}>
+      <Helmet title={`About - ${meta.defaultTitle}`}>
         <meta name="twitter:title" content={`Profile - ${meta.defaultTitle}`} />
         <meta name="twitter:description" content={meta.defaultDescription} />
       </Helmet>
-      <PageHeader title="Profile" />
+      <PageHeader title="About" />
 
       <Section>
         <P>
-          Oluwole (Wole) Oyekanmi, a data scientist, is Chief Operating Officer at 
+          Hello, my name is Oluwole (Wole) Oyekanmi, a data scientist, who loves 
+          building and making things with data. I love working on modeling, 
+          visualization and data pipelines
+        </P> 
+        <P>
+          I work at {' '}
+          <a href="https://quantextive.com" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             style={{textDecoration: 'underline'}}
+             >
+            Quantextive
+          </a> {' '}
+          where  I 
+            am studying the way data and data science tools intersects with 
+            investing and financial services, and how they impact society.
+            I love data, analytics, football, and thrillers
+        </P>
+
+          
+         {/* <P> 
+           is Chief Operating Officer at 
           <a href="https://quantextive.com" 
              target="_blank" 
              rel="noopener noreferrer">
@@ -27,7 +48,7 @@ export default ({data}) => {
           <a href="http://recursivealpha.substack.com"> Recursive-Alpha</a>
           , a weekly publication leverages his finance experience and technology expertise to deliver 
           a layman’s overview of the latest news in technology and startup investing to readers across Africa.
-        </P>
+        </P> */}
       </Section>
 
       <Section>

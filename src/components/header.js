@@ -62,13 +62,13 @@ export default () => (
         </li> */}
         <li>
           <Text fontSize={[1, 2]} style={{lineHeight: '1em'}}>
-            <Link to="/profile/">Profile</Link>
+            <Link to="/about/">About Me</Link>
           </Text>
         </li>
         <li>
           <Text fontSize={[1, 2]} style={{lineHeight: '1em'}}>
             <a
-              href="https://twitter.com/oluwoleco"
+              href="https://twitter.com/messages/compose?recipient_id=50334921"
               target="_blank"
               rel="noopener noreferrer"
             >

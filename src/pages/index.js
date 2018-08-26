@@ -25,34 +25,36 @@ const Index = ({data}) => {
           <meta name="twitter:description" content={meta.defaultDescription} />
         </Helmet>
         <Section pt={[20, 40]}>
-          <img
+          {/* <img
             src={coverPhoto}
             style={{width: '100%', marginBottom: 16}}
             alt="IT ME!"
-          />
+          /> */}
           <P>
             <br />
-            Hi! My name is Oluwole Oyekanmi, a data scientist living in Lagos. I am studying 
-            the way data and data science tools intersects with investing and 
-          financial services, and how they impact society.
+            This is the homepage and data science blog of Oluwole Oyekanmi. For more about me, {' '}
+            <Link to="/about/" style={{textDecoration: 'underline'}}> see here</Link>
+            
           </P>
-          <P>
+          {/* <P>
             COO at {' '}
             <a href="https://quantextive.com">
               Quantextive 
             </a>{' '}
             a Nigerian firm that gathers, curates and analyzes financial insights and data.
-            </P>
-            <P>
-            I spend the bulk of my out-of-work time researching and writing overviews on industries, and birthing new and exciting data visualisations.
+            </P> */}
+            {/* <P>
+            I spend the bulk of my out-of-work time researching and writing 
+            overviews on industries, and birthing new and exciting data 
+            visualisations.
             I'm an eternal analytical & financial opinionist.
-          </P>
-          <P>
+          </P> */}
+          {/* <P>
             Sign up for my weekly newsletter, {' '}
             <a href="https://recursivealpha.substack.com">
               Recursivealpha
             </a>, and get my opinions on all things #fintech and #data.
-          </P>
+          </P> */}
         </Section>
         <Section>
           <SectionTitle>Recent articles</SectionTitle>
