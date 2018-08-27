@@ -19,26 +19,29 @@ export default ({data}) => {
           Hello, my name is Oluwole (Wole) Oyekanmi, I love 
           building and making things with data and  working on modeling, 
           visualization and data pipelines. I have a big interest in tech 
-          investing looking forward to work in venture capital sometime.
-        </P> 
+          investing and I am looking forward to work in venture capital sometime.
+        </P> <br/>
+    
         <P>
-          I work as the COO at {' '}
+          While I'm currently looking out for new opportunities. I work as COO at {' '}
           <a href="https://quantextive.com" 
              target="_blank" 
              rel="noopener noreferrer"
              style={{textDecoration: 'underline'}}
              >
             Quantextive
-          </a> {' '}
-          where  I 
-            am studying the way data and data science tools intersects with 
-            investing and financial services, and how they impact society.
-            I love data, analytics, football, and thrillers
-        </P>
+          </a> {' '} (acquired '18)
+        where  I 
+           studyed the way data and data science tools intersects with 
+          investing and financial services, and how they impact society.
+          I love data, analytics, football, and thrillers
+        </P><br/>
 
         <P>
         I am also Founder and Editor of
-          <a href="http://recursivealpha.substack.com"> Recursive-Alpha</a>
+          <a href="http://recursivealpha.substack.com" 
+          style={{ textDecoration: 'underline' }}> 
+          Recursive-Alpha</a>
         , a weekly publication leveraging my finance experience and technology expertise to deliver
         a layman’s overview of the latest news in technology and startup investing to readers across Africa.
         </P>
