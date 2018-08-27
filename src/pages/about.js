@@ -23,7 +23,7 @@ export default ({data}) => {
         </P> <br/>
     
         <P>
-          While I'm currently looking out for new opportunities. I work as COO at {' '}
+          While I'm currently looking out for new opportunities, I recently worked as COO at {' '}
           <a href="https://quantextive.com" 
              target="_blank" 
              rel="noopener noreferrer"
