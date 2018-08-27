@@ -16,12 +16,13 @@ export default ({data}) => {
 
       <Section>
         <P>
-          Hello, my name is Oluwole (Wole) Oyekanmi, a data scientist, who loves 
-          building and making things with data. I love working on modeling, 
-          visualization and data pipelines
+          Hello, my name is Oluwole (Wole) Oyekanmi, I love 
+          building and making things with data and  working on modeling, 
+          visualization and data pipelines. I have a big interest in tech 
+          investing looking forward to work in venture capital sometime.
         </P> 
         <P>
-          I work at {' '}
+          I work as the COO at {' '}
           <a href="https://quantextive.com" 
              target="_blank" 
              rel="noopener noreferrer"
@@ -35,6 +36,12 @@ export default ({data}) => {
             I love data, analytics, football, and thrillers
         </P>
 
+        <P>
+        I am also Founder and Editor of
+          <a href="http://recursivealpha.substack.com"> Recursive-Alpha</a>
+        , a weekly publication leveraging my finance experience and technology expertise to deliver
+        a layman’s overview of the latest news in technology and startup investing to readers across Africa.
+        </P>
           
          {/* <P> 
            is Chief Operating Officer at 
