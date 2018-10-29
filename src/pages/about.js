@@ -23,7 +23,7 @@ export default ({data}) => {
         </P> <br/>
     
         <P>
-          While I'm currently looking out for new opportunities, I recently worked as COO at {' '}
+          I recently worked at {' '}
           <a href="https://quantextive.com" 
              target="_blank" 
              rel="noopener noreferrer"
@@ -34,11 +34,11 @@ export default ({data}) => {
         where  I 
            studyed the way data and data science tools intersects with 
           investing and financial services, and how they impact society.
-          I love data, analytics, football, and thrillers
+          
         </P><br/>
 
         <P>
-        I am also Founder and Editor of
+        I am also Founder and Editor of {' '}
           <a href="http://recursivealpha.substack.com" 
           style={{ textDecoration: 'underline' }}> 
           Recursive-Alpha</a>
