@@ -22,7 +22,7 @@ In this exercise, We are going get headlines from a tech new headlines so we can
 
 We are going to use Python as our scraping language, together with a simple and powerful library, BeautifulSoup.
 
-# 1. check the websites's robots.txt
+# 1. check the websites' robots.txt
 
 Websites are certain people's property and as a user, you are required to use it a certain way. People who build websites however, know that certain people will try to use it in a way that didn't intend for it to be used one of those ways is scraping. 
 
