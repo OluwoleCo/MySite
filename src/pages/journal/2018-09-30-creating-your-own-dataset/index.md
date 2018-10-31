@@ -92,6 +92,8 @@ Sponsored: is a boolean that checks if the post is a sponsored post or not. It i
 headline: extracts the headline text
 
 ```python
+table = []
+
 soup = BeautifulSoup(page, 'html.parser')
 div = soup.find('div', attrs={'class': 'posts'})
 for tag in div.find_all('div', attrs={'class' : 'medium-8'}):
@@ -119,16 +121,18 @@ We store the data we got in a dictionary and put it in the table array.
 
 Now time for the other pages. At the time of writing this article, there are 818 pages so, we need to get the URLs
 
+```python
 linkArr = []
 techpoint = 'https://techpoint.africa/page/'
 for i in range(2, 819):
     linkArr.append(techpoint + str(i) +'/')
+```
 
 linkArr has all the URLs we wish to parse
 
 We will extract the data like we did above only this time, we look through all the URL.
 
-```
+```python
   for link in linkArr:
         try:
             page = urlopen(link)
