@@ -34,15 +34,6 @@ export default function HTML(props) {
 
         {props.headComponents}
         {css}
-      </head>
-      <body>
-        <div id="___gatsby" dangerouslySetInnerHTML={{__html: props.body}} />
-        {props.postBodyComponents}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `console.log('Built at ${Date(new Date().getTime())}')`,
-          }}
-        />
         <script>
           window['_fs_debug'] = false;
           window['_fs_host'] = 'fullstory.com';
@@ -60,6 +51,15 @@ export default function HTML(props) {
     g.clearUserCookie=function(){};
       })(window,document,window['_fs_namespace'],'script','user');
 </script>
+      </head>
+      <body>
+        <div id="___gatsby" dangerouslySetInnerHTML={{__html: props.body}} />
+        {props.postBodyComponents}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `console.log('Built at ${Date(new Date().getTime())}')`,
+          }}
+        />
       </body>
     </html>
   );
