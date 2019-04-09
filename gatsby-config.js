@@ -52,6 +52,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-fullstory`,
+      options: {
+        fs_org: 'KCX9J',
+      },
+    },
+    {
       resolve: `gatsby-plugin-gosquared`,
       options: {
         token: 'GSN-735683-L',
