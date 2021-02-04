@@ -38,7 +38,7 @@ export default ({data}) => {
         </P><br/>
 
         <P>
-        I am also Founder and Editor of {' '}
+        I am also Editor of {' '}
           <a href="http://recursivealpha.substack.com" 
           style={{ textDecoration: 'underline' }}> 
           Recursive-Alpha</a>
