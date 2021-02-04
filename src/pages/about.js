@@ -30,7 +30,7 @@ export default ({data}) => {
              style={{textDecoration: 'underline'}}
              >
             Quantextive
-          </a> {' '} (acquired '18)
+          </a> {' '} 
         where  I 
            studyed the way data and data science tools intersects with 
           investing and financial services, and how they impact society.
@@ -47,7 +47,7 @@ export default ({data}) => {
         </P>
           
          {/* <P> 
-           is Chief Operating Officer at 
+           is Data Analyst at 
           <a href="https://quantextive.com" 
              target="_blank" 
              rel="noopener noreferrer">
