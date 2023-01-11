@@ -19,7 +19,7 @@
     "gatsby-remark-images": "~1.5.13",
     "gatsby-remark-prismjs": "^1.2.8",
     "gatsby-source-filesystem": "~1.5.1",
-    "gatsby-transformer-remark": "~1.7.12",
+    "gatsby-transformer-remark": "~5.25.1",
     "grid-styled": "^2.0.0-11",
     "react": "~16.2.0",
     "react-dom": "~16.0.0",
